@@ -1,16 +1,16 @@
 # URLCount MapReduce Example
-##### uses KeyValueTextInputFormat with space separator for K,V pair
-##### this example reads in key as text and value as int, sums every value according to key
+#### uses KeyValueTextInputFormat with space separator for K,V pair https://hadoop.apache.org/docs/r2.7.1/api/org/apache/hadoop/mapred/KeyValueTextInputFormat.html
+#### this example reads in key as text and value as int, sums every value according to key
 
-##### Tested on: Sandbox 2.3.2
-##### Compiled with Hortonworks HDP 2.3.0
+#### Tested on: Sandbox 2.3.2
+#### Compiled with Hortonworks HDP 2.3.0
 
-##### use included input file as dataset
-##### execute the job like so:
+#### use included input file as dataset
+#### execute the job like so:
 ```
 yarn jar URLCount-1.0-jar-with-dependencies.jar data output
 ```
-##### output looks like so:
+#### output looks like so:
 
 ```
 http://url1.com 523
